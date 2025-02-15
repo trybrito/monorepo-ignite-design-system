@@ -12,6 +12,7 @@
     "build:storybook": "storybook build"
   },
   "dependencies": {
+    "polished": "^4.3.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
@@ -20,6 +21,7 @@
     "@ignite-ui/eslint-config": "*",
     "@ignite-ui/react": "*",
     "@ignite-ui/tokens": "*",
+    "@ignite-ui/ts-config": "*",
     "@storybook/addon-essentials": "^8.5.5",
     "@storybook/addon-interactions": "^8.5.5",
     "@storybook/addon-onboarding": "^8.5.5",
