@@ -27,7 +27,7 @@ const config: StorybookConfig = {
   },
   viteFinal: (config, { configType }) => {
     if (configType === 'PRODUCTION') {
-      config.base = '/monorepo-ignite-design-system'
+      config.base = '/monorepo-ignite-design-system/'
     }
 
     return config
