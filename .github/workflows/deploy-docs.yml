@@ -19,6 +19,9 @@ jobs:
       - run: npm i
 
       - run: npm run build
+        env:
+          TURBO_TOKEN: AEoL3KJuv8eLnK6HBwEfOGdQ
+          TURBO_TEAM: thiago-raniery-britos-projects
 
       - name: Deploy Storybook
         working-directory: ./packages/docs
