@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "storybook dev -p 6006",
     "build": "storybook build",
+    "deploy-storybook": "storybook-to-ghpages",
     "dev:vite": "vite",
     "build:vite": "tsc -b && vite build",
     "lint": "eslint .",
@@ -31,6 +32,7 @@
     "@storybook/manager-api": "^8.5.5",
     "@storybook/react": "^8.5.5",
     "@storybook/react-vite": "^8.5.5",
+    "@storybook/storybook-deployer": "^2.8.16",
     "@storybook/test": "^8.5.5",
     "@storybook/theming": "^8.5.5",
     "@types/node": "^22.13.4",
