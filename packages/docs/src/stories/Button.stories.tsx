@@ -7,9 +7,33 @@ export default {
   component: Button,
   args: {
     children: 'Send',
+    variant: 'primary',
+    size: 'md',
+    disabled: false,
   },
   argTypes: {
+    size: {
+      description: 'Changes text size',
+      options: ['sm', 'md'],
+      control: {
+        type: 'inline-radio',
+      },
+    },
+    variant: {
+      description: 'Changes button stylization',
+      options: ['primary', 'secondary', 'tertiary'],
+      control: {
+        type: 'inline-radio',
+      },
+    },
+    disabled: {
+      description: 'Disables/enables button',
+      control: {
+        type: 'boolean',
+      },
+    },
     onClick: {
+      description: 'Defines onClick event action',
       action: {
         name: 'click',
       },
