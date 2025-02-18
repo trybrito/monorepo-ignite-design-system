@@ -12,6 +12,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@storybook/addon-a11y": "^8.5.6",
     "phosphor-react": "^1.4.1",
     "polished": "^4.3.1",
     "react": "^19.0.0",
