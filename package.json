@@ -5,10 +5,14 @@
   ],
   "scripts": {
     "dev": "turbo run dev --parallel",
-    "build": "turbo run build"
+    "build": "turbo run build",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "turbo run build --filter=@try-ignite-ui/docs && changeset publish"
   },
   "packageManager": "^npm@10.9.2",
   "devDependencies": {
+    "@changesets/cli": "^2.28.0",
     "turbo": "^2.4.2"
   }
 }
