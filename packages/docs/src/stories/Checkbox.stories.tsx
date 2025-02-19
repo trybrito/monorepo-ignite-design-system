@@ -10,7 +10,7 @@ export default {
       return (
         <Box
           as="label"
-          style={{ display: 'flex', flexDirection: 'row', gap: '0.5rem' }}
+          style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '0.5rem' }}
         >
           {Story()}
           <Text size="sm">Accept Terms and Conditions</Text>
