@@ -8,4 +8,4 @@ export * from './components/TextArea'
 export * from './components/Checkbox'
 export * from './components/MultiStep'
 
-// Test comment
+export * from './styles'
