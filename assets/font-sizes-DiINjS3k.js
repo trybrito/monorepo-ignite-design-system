@@ -1,0 +1,4 @@
+import{j as t}from"./index-DVp-3Aem.js";import{useMDXComponents as s}from"./index-BJaai1kI.js";import{M as r}from"./DocsRenderer-CFRXHY34-C84l8XjA.js";import{T as i}from"./TokensGrid-CpstRzcY.js";import{f as m}from"./index-DxkslMMU.js";import"./_commonjsHelpers-CqkleIqs.js";import"./index-BsNqBstw.js";import"./index-DuZrfDUH.js";import"./iframe-BU2PzcRv.js";import"./index-BgNIGkH8.js";import"./index-CXQShRbs.js";import"./index-DrFu-skq.js";import"./react-18-7rs9glc5.js";function e(o){const n={h1:"h1",p:"p",...s(),...o.components};return t.jsxs(t.Fragment,{children:[t.jsx(r,{title:"Tokens/Font Sizes"}),`
+`,t.jsx(n.h1,{id:"font-sizes",children:"Font Sizes"}),`
+`,t.jsx(n.p,{children:"Esses são os tamanhos de fonte do Ignite UI:"}),`
+`,t.jsx(i,{tokens:m,hasRemValue:!0})]})}function C(o={}){const{wrapper:n}={...s(),...o.components};return n?t.jsx(n,{...o,children:t.jsx(e,{...o})}):e(o)}export{C as default};

@@ -1,0 +1,4 @@
+import{j as t}from"./index-DVp-3Aem.js";import{useMDXComponents as i}from"./index-BJaai1kI.js";import{M as s}from"./DocsRenderer-CFRXHY34-C84l8XjA.js";import{T as r}from"./TokensGrid-CpstRzcY.js";import{l as m}from"./index-DxkslMMU.js";import"./_commonjsHelpers-CqkleIqs.js";import"./index-BsNqBstw.js";import"./index-DuZrfDUH.js";import"./iframe-BU2PzcRv.js";import"./index-BgNIGkH8.js";import"./index-CXQShRbs.js";import"./index-DrFu-skq.js";import"./react-18-7rs9glc5.js";function e(n){const o={h1:"h1",p:"p",...i(),...n.components};return t.jsxs(t.Fragment,{children:[t.jsx(s,{title:"Tokens/Line Heights"}),`
+`,t.jsx(o.h1,{id:"line-heights",children:"Line Heights"}),`
+`,t.jsx(o.p,{children:"Essas são as alturas de linha do Ignite UI:"}),`
+`,t.jsx(r,{tokens:m})]})}function C(n={}){const{wrapper:o}={...i(),...n.components};return o?t.jsx(o,{...n,children:t.jsx(e,{...n})}):e(n)}export{C as default};
