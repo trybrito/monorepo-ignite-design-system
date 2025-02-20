@@ -9,5 +9,3 @@ export * from './components/Checkbox'
 export * from './components/MultiStep'
 
 export * from './styles'
-
-// Test comment for commit, bump and publish.
